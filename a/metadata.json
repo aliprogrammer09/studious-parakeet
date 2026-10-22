@@ -1,0 +1,6 @@
+{
+  "name": "Domina",
+  "description": "A sleek, high-performance local media organizer, gallery, video studio, and comic/image-set reader with boolean tag filtering and 5-star ratings.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Domina</string>
+    <string name="brand_wordmark">DOMINA</string>
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_images">Images</string>
+    <string name="nav_videos">Videos</string>
+    <string name="nav_comics">Comics</string>
+    <string name="nav_imagesets">Image Sets</string>
+    <string name="nav_advanced_search">Advanced Search</string>
+    <string name="nav_settings">Settings</string>
+    <string name="hero_badge">OFFLINE LOCAL MEDIA SANCTUM</string>
+    <string name="hero_title">Domina Media Archive &amp; Immersive Reader</string>
+    <string name="hero_subtitle">Scan local directories on device or mount folders to organize, rate, filter, and view Images, Videos, multi-page Comics, and Image Sets.</string>
+    <string name="panic_close">Panic Close</string>
+    <string name="lock_screen">Lock Screen</string>
+    <string name="unlock_vault">Unlock Vault</string>
+    <string name="privacy_lock_title">Vault Privacy Lock Active</string>
+    <string name="privacy_lock_subtitle">All local media viewports and thumbnails are concealed. Tap below to unlock your vault.</string>
+    <string name="mount_folder">Mount Folder</string>
+    <string name="add_files">Add Files</string>
+    <string name="quick_search">Quick Search</string>
+    <string name="highest_rated_showcase">Highest-Rated Showcase</string>
+    <string name="continue_reading_comics">Continue Reading Comics</string>
+    <string name="pinned_favorites">Pinned Favorites</string>
+</resources>

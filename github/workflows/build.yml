@@ -1,0 +1,26 @@
+name: Build Android APK
+on: [push, workflow_dispatch]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+          cache: gradle
+      - name: Grant execute permission for gradlew
+        run: chmod +x a/gradlew
+      - name: Build APK
+        run: cd a && ./gradlew assembleDebug
+      - name: Find and Collect APK
+        run: |
+          mkdir -p output_apks
+          find . -name "*.apk" -exec cp {} output_apks/ \;
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: My-App-APK
+          path: output_apks/*.apk
